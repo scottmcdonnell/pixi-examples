@@ -4,6 +4,13 @@
         "entry": "dragon.js",
         "plugins": ["pixi-spine"]
     },
+     {
+        "title": "Dragon Shear",
+        "entry": "dragon-shear.js",
+        "plugins": [
+            "pixi-spine"
+        ]
+    },
     {
         "title": "Goblin",
         "entry": "goblins.js",
