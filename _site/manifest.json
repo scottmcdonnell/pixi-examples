@@ -176,8 +176,15 @@
             ]
         },
         {
-            "title": "Dragon Shear",
-            "entry": "dragon-shear.js",
+            "title": "Dragon Boned Mesh 3.2",
+            "entry": "dragon_3_2.js",
+            "plugins": [
+                "pixi-spine"
+            ]
+        },
+         {
+            "title": "Dragon Boned Mesh 3.3",
+            "entry": "dragon_3_3.js",
             "plugins": [
                 "pixi-spine"
             ]

@@ -6,7 +6,7 @@ var stage = new PIXI.Container();
 
 // load spine data
 PIXI.loader
-    .add('dragon', '_assets/spine/dragon.json')
+    .add('dragon', '_assets/spine/dragon_3_2.json')
     .load(onAssetsLoaded);
 
 var dragon = null;
@@ -36,7 +36,7 @@ function onAssetsLoaded(loader,res)
     stage.addChild(dragonCage);
 
     // once position and scaled, set the animation to play
-    dragon.state.setAnimationByName(0, 'boned-mesh', true);
+    dragon.state.setAnimationByName(0, 'animation', true);
 
     animate();
 }
