@@ -36,7 +36,7 @@ function onAssetsLoaded(loader,res)
     stage.addChild(dragonCage);
 
     // once position and scaled, set the animation to play
-    dragon.state.setAnimationByName(0, 'shear_test_1', true);
+    dragon.state.setAnimationByName(0, 'boned-mesh', true);
 
     animate();
 }
